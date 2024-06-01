@@ -1,0 +1,19 @@
+baseURL: /
+languageCode: en
+DefaultContentLanguage: en
+title: Website of Educative
+theme: anatole
+summarylength: 10
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+pygmentsCodefencesGuessSyntax: yes
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+taxonomies:
+  category: categories
+  series: series
+  tag: tags

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+  @include ltr {
+    font-family: 'PingFang SC';
+    font-size: 1.6rem;
+  }
+
+  @include rtl {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.5rem;
+  }
+}
