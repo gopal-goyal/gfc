@@ -1,8 +1,9 @@
-title = "I'm Jane Doe"
-author = "Jane Doe"
+
+title = "Educative User"
+author = "Educative"
 #copyright = "2020-2021"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+description = "Learner"
+profilePicture = "images/profile-icon.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -32,6 +33,14 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 [simpleAnalytics]
 # enable = true
 # customurl = "https://analytics.example.com"
+
+[plausibleAnalytics]
+# domain = "example.com"
+# serverURL = "https://analytics.example.com"
+
+[umami]
+# serverURL = "example.com"
+# id = "94db1cb1-74f4-4a40-ad6c-962362670409"
 
 ## Math settings
 [math]
